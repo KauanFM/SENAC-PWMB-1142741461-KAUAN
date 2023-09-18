@@ -1,0 +1,49 @@
+.email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    position: relative;
+    left: 05px;
+}
+
+.insertE{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    left: 07px;
+}
+
+.senha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.insertS{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#login{
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: #0a90ad;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
+
+.cadastro{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+}

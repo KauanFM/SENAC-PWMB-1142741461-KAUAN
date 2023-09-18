@@ -1,0 +1,109 @@
+.user{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.insertU{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+    height: 25px;
+}
+
+.email{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    left: 15px;
+}
+
+.insertE{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+    position: relative;
+    left: 16px;
+    height: 25px;
+    color: white;
+}
+
+.confE{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+    
+}
+
+.insertConf{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+    height: 25px;
+}
+
+.passw{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.insertPass{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+    height: 25px;
+}
+
+.conP{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+
+.insertConP{
+    border-radius: 10px;
+    border: none;
+    background-color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: dotted;
+    height: 25px;
+}
+
+#button{
+    width: 130px;
+    height: 30px;
+    position: relative;
+    background: #0a90ad;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+#button:active{
+    transform: scale(0.970);
+}

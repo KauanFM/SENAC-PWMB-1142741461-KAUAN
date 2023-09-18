@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="script" href="cadastro.js">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <main>
+        <form>
+            <p>
+                <label class="user">Usuário :</label>
+                <input class="insertU" type="text" id="usuario" name="usuario">
+            </p>
+            <p>
+                <label class="email">Email :</label>
+                <input class="insertE" type="text" id="emailCadastro" name="email">
+            </p>
+            <p>
+                <label class="confE">Confirmar Email :</label>
+                <input class="insertConf" type="text" id="confEmail" name="confEmail">
+            </p>
+            <p>
+                <label class="passw">Senha :</label>
+                <input class="insertPass" type="password" id="senhaCadastro" name="senha">
+            </p>
+            <p>
+                <label class="conP">Confirmar Senha :</label>
+                <input class="insertConP" type="password" id="confSenha" name="confSenha">
+            </p>
+            <input id="button" type="submit" value="Realizar Cadastro" onclick="cadastro(); return false" >
+        </form>
+       
+    </main>
+         
+</body>
+</html>

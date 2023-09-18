@@ -1,0 +1,180 @@
+:root {
+    --menu-size: 200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.home{
+    font-size: 30px;
+    color: #46444C;
+    position: relative;
+    left: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.home:hover{
+    cursor: pointer;
+}   
+
+header {
+    background-color: none;
+    padding: 10px;
+    text-align: left;
+}
+
+#btnMenu {
+    cursor: pointer;
+    padding: 3px;
+    transition: all 0.5s;
+    position: relative;
+    border-radius: 5px;
+    left: 10px;
+    top: 3.5px;
+}
+
+#btnMenu:hover {
+    cursor: pointer;
+}
+
+#btnMenu:active {
+    background-color: rgb(3, 4, 7);
+}
+
+.menu {
+    position: absolute;
+    top: 54px;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: #0A90AD;
+    border-top-right-radius: 25px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: block;
+}
+
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(49, 54, 85);
+}
+
+.effect {
+    transition: margin 0.4s;
+}
+
+.test{
+    width: 800px;
+    height: 400px;
+    background-color: #0A90AD;
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    border-radius: 50px;
+}
+
+.test::after{
+    content: "Continue a nadar, continue a nadar.";
+    font-weight: bolder;
+    position: absolute;
+    left: 50px;
+    top: 280px;
+}
+
+.peixe{
+    color: black;
+    font-size: 45px;
+    font-weight: bolder;
+    position: absolute;
+    left: 280px;
+    top: 110px;
+    z-index: 1;
+    transform: rotate(-2deg);
+}
+
+.peixe::after{
+    transform: rotate(-2deg);
+}
+
+.retangulo{
+    width:200px;
+    height: 63.399px;
+    transform: rotate(-2deg);
+    flex-shrink: 0;
+    background-color: white;
+    position: relative;
+    left: 270px;
+    top: 50px;
+}
+
+.orn{
+    color: black;
+    font-size: 45px;
+    font-weight: bolder;
+    position: absolute;
+    left: 290px;
+    top: 170px;
+    z-index: 1;
+    transform: rotate(-2deg);
+}
+
+.orn::after{
+    transform: rotate(-2deg);
+}
+
+.retangulo2{
+    width: 383px;
+    height: 63.399px;
+    transform: rotate(-2deg);
+    flex-shrink: 0;
+    background-color: white;
+    position: relative;
+    left: 280px;
+    top: 50px;
+}
+
+.carpa{
+    position: absolute;
+    max-width: 250px;
+    max-height: 380px;
+    left: 750px;
+    top: 90px;
+}
+
+.compre{
+    width: 120px;
+    height: 50px;
+    border-radius: 05px;
+    position: absolute;
+    left: 300px;
+    bottom: 150px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
